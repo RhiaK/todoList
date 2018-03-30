@@ -7,26 +7,36 @@
 	<title>To Do</title>
 </head>
 <body>
+
 	<header class="container">
 		<div class="row justify-content-md-center">
 			<h1 class="col-md-auto">
 			To Do:</h1>
 		</div>
 	</header>
-	<form class="form-inline">
-		<div class="form-group mx-sm-3 mb-3">
-			<div class="col-auto">
-				<input class="form-control textbox" type="text" placeholder="Enter text here" readonly>
-				<input type="Submit" class="btn btn-primary  button"></input>
+
+	<form class="form"> 
+		<div class="form-group row justify-content-center">
+			<div class="col-10">
+				<div class="row justify-content-md-center">
+					<div class="col-sm-9">
+						<input class="form-control textbox" type="text" placeholder="Enter text here">
+					</div>
+					<div class="col-sm-1"> 
+						<input type="Submit" class="btn btn-primary  button"></input>
+					</div>
+				</div>
 			</div>
-		</div>
+		</div>	
 	</form>
+
 	<div class="form-check mx-sm-3 mb-3">
   		<input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+  		<ul id="newItem"></ul>
 	</div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="myscripts.js"></script>
+<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
