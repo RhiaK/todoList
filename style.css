@@ -1,6 +1,13 @@
 h1 {
 	text-align: center;
-	margin: 20px 0 20px 0;
+	margin: 60px 0 60px 0;
+	color: white;
+}
+
+body {
+	background-image: url("https://avatanplus.com/files/resources/mid/58ff61c03b15615ba595d6f2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #button {
@@ -10,4 +17,14 @@ h1 {
 
 #textbox {
 	width: 100%;
+}
+
+li {
+	list-style-type: none;
+	font-size: 18px;
+	padding: 5px;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.7);
 }
