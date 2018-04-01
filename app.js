@@ -2,13 +2,12 @@ $(document).ready(function() {
 	$(".form").on("submit", function(e) {
 		e.preventDefault();
 		var textEntry = $(".textbox").val();
-		$("#listItems").prepend($("<li>").html(textEntry));
+		$("#listItems").prepend($("<li>").html(textEntry + "</li>"));
 		$(".textbox").val('');
-		});
-	$("ul").on("dblclick", function(event) {
-		event.preventDefault();
-		var index = $("ul").index(this);
-		$(this).remove();
+	});
 
-	})
+	$("ul").on("dblclick", "li", function(event) {
+		event.preventDefault();
+		$(this).remove();
+		});
 });

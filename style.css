@@ -1,7 +1,8 @@
-h1 {
+header {
 	text-align: center;
 	margin: 60px 0 60px 0;
 	color: white;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 body {
@@ -20,6 +21,7 @@ body {
 }
 
 li {
+	text-align: center;
 	list-style-type: none;
 	font-size: 18px;
 	padding: 5px;
@@ -27,4 +29,22 @@ li {
 	margin-right: 10%;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#remove {
+	text-align: center;
+	list-style-type: none;
+	font-size: 18px;
+	padding: 5px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.nopadding {
+	padding: 0px;
+	margin: 0px;
 }
